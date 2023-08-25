@@ -11,21 +11,21 @@ import engg from '../../photos/faculty/engg.jpg'
 
 const Faculty = () => {
     return (
-        <div className='lg:pt-10  pb-4 mt-8 rounded-md bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+        <div className='lg:pt-2  rounded-md bg-gradient-to-r from-violet-500 to-fuchsia-500'>
 
-            <div className='lg:text-4xl text-3xl  text-center hover:from-yellow-500 hover:to-pink-500 mb-8 '>
+            <div className='lg:text-4xl text-3xl  text-center hover:from-yellow-500 hover:to-pink-500 mb-4 '>
                 <h1 className=' font-bold underline underline-offset-8 '>Faculty :</h1>
             </div>
             <div className="grid lg:grid-cols-3 lg:ml-10 mx-2 ">
             
-            <div className="card lg:w-96  mb-10  bg-gradient-to-r from-cyan-500 to-blue-500 
+            <div className="card lg:w-96  mb-4  bg-gradient-to-r from-cyan-500 to-blue-500 
             hover:from-yellow-500 hover:to-pink-500 shadow-xl">
               <figure className="px-4 pt-2">
                   <img src={cse} alt="Shoes" className="rounded-xl" />
               </figure>
               <div className="my-2  items-center text-center"> 
                      <div className="dropdown dropdown-hover">
-                        <button tabIndex={0} className="  btn  m-1 btn lg:btn-block font-bold bg-gradient-to-r from-green-400 to-blue-500 
+                        <button tabIndex={0} className="btn  m-1 btn lg:btn-block font-bold bg-gradient-to-r from-green-400 to-blue-500 
                                     hover:from-pink-500 hover:to-yellow-500 subpixel-antialiased">Computer Science & Engineering</button>
                         <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 font-bold
                          shadow bg-yellow-100 rounded-box ">

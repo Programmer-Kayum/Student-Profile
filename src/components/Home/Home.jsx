@@ -11,11 +11,11 @@ const Home = () => {
 
     return (
         <div>
-                <div className='my-8'><Carousel></Carousel></div>  
+                <div className='mt-2'><Carousel></Carousel></div>  
                 <progress className="progress "></progress>
-                <div className='my-8'> <Facultys></Facultys></div> 
+                <div className='mt-2'> <Facultys></Facultys></div> 
                 <progress className="progress "></progress>
-                <div className='my-8 items-center text-center'><Student></Student></div>
+                <div className='my-2 items-center text-center'><Student></Student></div>
         </div>
 
     );

@@ -15,7 +15,7 @@ const Student = () => {
 
     <div className="stats shadow lg:h-48 mx-4 my-2 lg:w-52 w-72 pt-4 ">
     <div className="stat">
-    <div className="stat-value mx-8">11203</div>
+    <div className="stat-value mx-4">11203</div>
     <div className="stat-title font-bold">Students</div>
     </div>
     </div>       
