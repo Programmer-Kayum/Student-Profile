@@ -10,13 +10,13 @@ const menuIteam= <>
 <li> <Link to="/faculty" className='text-yellow-500 text-xl font-bold hover:bg-yellow-200'>Faculty</Link> </li>
 <li> <Link to="/profile" className='text-yellow-500 text-xl font-bold hover:bg-yellow-200'>Profile</Link> </li>
 <li> <Link to="/library" className='text-yellow-500 text-xl font-bold hover:bg-yellow-200'>Library</Link> </li>
-<li> <Link to="/signin" className='text-yellow-500 text-xl font-bold hover:bg-yellow-200'>Registration</Link> </li>
-<li> <Link to="/login" className='text-yellow-500 text-xl font-bold hover:bg-yellow-200'>Log In</Link> </li>
+{/* <li> <Link to="/login" className='text-yellow-500 text-xl font-bold hover:bg-yellow-200'>Log In</Link> </li> */}
 </>
 
     return (
         <div>
             <div>
+               
                 <img className='w-full lg:h-36  ' src={logo1} alt="" />
             </div>
            <div className="navbar bg-cyan-900">
@@ -49,7 +49,7 @@ const menuIteam= <>
                             <li>
                             <div className="justify-between">
                                <Link to="/profile"> <h1>Profile</h1></Link>
-                                <Link to="/registration"><span   className="badge">New</span></Link>
+                                <Link to="/profile"><span   className="badge">New</span></Link>
                             </div>
                             </li>
                             <li><a>Settings</a></li>

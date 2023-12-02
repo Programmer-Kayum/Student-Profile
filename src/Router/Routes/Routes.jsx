@@ -4,8 +4,11 @@ import Home from "../../components/Home/Home";
 import Faculty from "../../components/Faculty/Faculty";
 import Profile from "../../components/Profile/Profile";
 import Library from "../../components/Library/Library";
-import Login from "../../Security/Login/Login";
-import Signin from "../../Security/Sign In/Signin";
+import Kayum from "../../components/Profile/Kayum/Kayum";
+import Sathy from "../../components/Profile/Sathy/Sathy";
+import Zim from "../../components/Profile/Zim/Zim";
+
+
 const router= createBrowserRouter([
     {
         path:"/",
@@ -28,13 +31,20 @@ const router= createBrowserRouter([
                 element:<Library></Library>
             },
             {
-                path:"/signin",
-                element:<Signin></Signin>
+                path:"/kayum",
+                element: <Kayum></Kayum>
             },
             {
-                path:"/login",
-                element:<Login></Login>
+                path: "/sathy",
+                element: <Sathy></Sathy>
+
+            },
+            {
+                path: "zim",
+                element: <Zim></Zim>
             }
+           
+          
         ]
     },
 ]);
